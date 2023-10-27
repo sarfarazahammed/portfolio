@@ -5,6 +5,7 @@
 	import { Drawer, Button, CloseButton, Footer, FooterCopyright } from 'flowbite-svelte';
 	import { InfoCircleSolid, ArrowRightOutline } from 'flowbite-svelte-icons';
 	import { sineIn } from 'svelte/easing';
+	import { base } from '$app/paths';
 	let hidden1 = true;
 	let transitionParams = {
 		x: -320,
@@ -36,6 +37,6 @@
 		<slot />
 	</div>
 	<Footer>
-		<FooterCopyright href="/" by="SyedSarfarazAhammed™" year={2023} />
+		<FooterCopyright href={base + '/'} by="SyedSarfarazAhammed™" year={2023} />
 	</Footer>
 </div>
