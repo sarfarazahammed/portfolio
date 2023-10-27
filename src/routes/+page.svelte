@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import '../app.css';
+</script>
+
+<div class="flex justify-content items-center w-full">
+	<h1 class="w-full text-center">Home</h1>
+</div>

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.app-container {
+	background-color: rgb(235 230 219 / 1);
+	height: 100dvh;
+}
