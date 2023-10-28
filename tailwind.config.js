@@ -22,7 +22,7 @@ export default {
 				}
 			},
 			fontFamily: {
-				display: 'Quicksand'
+				display: ['Mulish', 'sans-serif']
 			},
 			screens: {
 				sm: '640px',
