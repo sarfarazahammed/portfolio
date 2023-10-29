@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
 	import { onMount } from 'svelte';
-	import { Heading, P, Button, Tooltip } from 'flowbite-svelte';
+	import { Heading, P, Button, Tooltip, Span } from 'flowbite-svelte';
 	import Java from '$lib/assets/icons/java.svelte';
 	import Javascript from '$lib/assets/icons/js.svelte';
 	import Kafka from '$lib/assets/icons/kafka.svelte';
@@ -45,12 +45,17 @@
 			class="p-1 md:p-3"
 			customSize="text-2xl sm:text-3xl font-extrabold  md:text-4xl lg:text-5xl">Hello! 👋</Heading
 		>
-		<P class="p-1 md:p-3 text-md sm:text-lg lg:text-xl dark:text-gray-400 text-justify">
+		<p class="p-1 md:p-3 text-md sm:text-lg lg:text-xl dark:text-gray-400 text-justify">
 			I'm <span class="name">Sarfaraz Ahammed Syed</span>, have started working on backend
 			engineering
 			<span id="exp">{formattedDateDiff}</span>.
-			<Tooltip class="bg-primary-200 text-dark " triggeredBy="#exp">Started on 27-May-2019</Tooltip>
-		</P>
+		</p>
+		<Tooltip
+			class="bg-primary-200 text-dark font-light"
+			reference="#exp"
+			placement="top"
+			triggeredBy="#exp">Started on 27-May-2019</Tooltip
+		>
 		<P class="p-1 md:p-3 text-md sm:text-lg lg:text-xl dark:text-gray-400 text-justify">
 			Behind the scenes, I work to ensure tech runs seamlessly. As a backend infrastructure and data
 			engineer, I tackle data challenges and build critical yet invisible infrastructure. Join me on

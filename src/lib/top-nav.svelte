@@ -41,7 +41,7 @@
 			<NavLi class="cursor-pointer"
 				>Projects<ChevronDownOutline class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline" />
 			</NavLi>
-			<Dropdown class="w-44 z-20">
+			<Dropdown class="w-44 z-20" {activeUrl}>
 				<DropdownItem href={base + '/projects/backend'}>Backend</DropdownItem>
 				<DropdownItem href={base + '/projects/frontend'}>Frontend</DropdownItem>
 				<DropdownItem href={base + '/projects/data-engineering'}>Data Engineering</DropdownItem>
@@ -49,7 +49,7 @@
 			<NavLi href={base + '/experience'}>Experience</NavLi>
 			<NavLi href={base + '/articles'}>Articles</NavLi>
 			<NavLi href={base + '/services'}>Services</NavLi>
-			<NavLi href={base + '/contact'}>Contact</NavLi>
+			<NavLi href={base + '/bookshelf'}>Bookshelf</NavLi>
 		</NavUl>
 	</NavContainer>
 </Navbar>
