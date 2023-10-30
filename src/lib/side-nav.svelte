@@ -1,55 +1,56 @@
 <script>
 	import { page } from '$app/stores';
-	import { Sidebar, SidebarGroup, SidebarItem, SidebarWrapper } from 'flowbite-svelte';
+	import {
+		Sidebar,
+		SidebarDropdownItem,
+		SidebarDropdownWrapper,
+		SidebarGroup,
+		SidebarItem,
+		SidebarWrapper
+	} from 'flowbite-svelte';
 	import { base } from '$app/paths';
+	import Java from '$lib/assets/icons/java.svelte';
 	import {
 		ChartPieSolid,
 		GridSolid,
 		MailBoxSolid,
 		UserSolid,
-		ArrowRightToBracketSolid
+		ArrowRightToBracketSolid,
+		ShoppingCartSolid,
+		BagSolid,
+		UsersSolid,
+		FileEditSolid,
+		CodeSolid
 	} from 'flowbite-svelte-icons';
-	$: activeUrl = $page.url.pathname;
+	let activeClass =
+		'flex items-center p-2 text-base font-normal text-primary-900 bg-primary-200 dark:bg-primary-700 rounded-lg dark:text-white hover:bg-primary-100 dark:hover:bg-gray-700';
+
+	let spanClass = 'flex-1 ml-3 whitespace-nowrap';
 </script>
 
-<Sidebar {activeUrl}>
-	<SidebarWrapper class="min-h-screen">
+<Sidebar {activeClass}>
+	<SidebarWrapper divClass="overflow-y-auto py-4 px-3 rounded dark:bg-gray-800">
 		<SidebarGroup>
-			<SidebarItem label="Dashboard" href={base + '/'}>
+			<SidebarDropdownWrapper label="Java">
 				<svelte:fragment slot="icon">
-					<ChartPieSolid
+					<CodeSolid
 						class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
 					/>
 				</svelte:fragment>
-			</SidebarItem>
-			<SidebarItem label="Accordion" href={base + '/docs/components/accordion'}>
+				<SidebarDropdownItem label="Basics" />
+				<SidebarDropdownItem label="Advanced" />
+				<SidebarDropdownItem label="Additional" />
+			</SidebarDropdownWrapper>
+			<SidebarDropdownWrapper label="Python">
 				<svelte:fragment slot="icon">
-					<GridSolid
+					<CodeSolid
 						class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
 					/>
 				</svelte:fragment>
-			</SidebarItem>
-			<SidebarItem label="Alert" href={base + '/docs/components/alert'}>
-				<svelte:fragment slot="icon">
-					<MailBoxSolid
-						class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-					/>
-				</svelte:fragment>
-			</SidebarItem>
-			<SidebarItem label="Sidebar" href={base + '/docs/components/sidebar'}>
-				<svelte:fragment slot="icon">
-					<UserSolid
-						class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-					/>
-				</svelte:fragment>
-			</SidebarItem>
-			<SidebarItem label="Badge" href={base + '/docs/components/badge'}>
-				<svelte:fragment slot="icon">
-					<ArrowRightToBracketSolid
-						class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-					/>
-				</svelte:fragment>
-			</SidebarItem>
+				<SidebarDropdownItem label="Basics" />
+				<SidebarDropdownItem label="Advanced" />
+				<SidebarDropdownItem label="Additional" />
+			</SidebarDropdownWrapper>
 		</SidebarGroup>
 	</SidebarWrapper>
 </Sidebar>

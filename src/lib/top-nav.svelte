@@ -46,7 +46,6 @@
 				<DropdownItem href={base + '/projects/frontend'}>Frontend</DropdownItem>
 				<DropdownItem href={base + '/projects/data-engineering'}>Data Engineering</DropdownItem>
 			</Dropdown>
-			<NavLi href={base + '/experience'}>Experience</NavLi>
 			<NavLi href={base + '/articles'}>Articles</NavLi>
 			<NavLi href={base + '/services'}>Services</NavLi>
 			<NavLi href={base + '/bookshelf'}>Bookshelf</NavLi>
