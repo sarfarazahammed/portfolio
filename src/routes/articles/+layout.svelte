@@ -18,18 +18,18 @@
 </script>
 
 <svelte:window bind:innerWidth />
-<div>
+<div class="flex flex-row h-full">
 	{#if innerWidth <= 768}
 		<div class="text-center">
 			<AngleRightSolid class="z-20" on:click={() => (hideDrawer = false)} />
 		</div>
-		<Drawer transitionType="fly" {transitionParams} bind:hidden={hideDrawer} id="sidebar2">
+		<Drawer class="w-54 " transitionType="fly" {transitionParams} bind:hidden={hideDrawer} id="sidebar2">
 			<div class="flex items-center justify-between">
 				<h5
 					id="drawer-navigation-label-3"
 					class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400"
 				>
-					Menu
+					Article Group
 				</h5>
 				<AngleLeftSolid on:click={() => (hideDrawer = true)} class="mb-4 dark:text-white" />
 			</div>

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Programming",
+    "image": "https://m.media-amazon.com/images/I/51b7XbfMIIL._SY522_.jpg",
+    "books": [
+      {
+        "image": "https://m.media-amazon.com/images/I/51b7XbfMIIL._SY522_.jpg",
+        "name": "Clean Code",
+        "description": "A timeless guide to writing maintainable and elegant software. It offers practical insights on improving code quality, readability, and design, emphasizing the importance of clean, efficient, and understandable code. This book is a must-read for developers looking to elevate their coding skills.",
+        "purchaseLink": "https://amzn.to/479fqbf"
+      },
+      {
+        "image": "https://m.media-amazon.com/images/I/61L9hHTU7zL._SY522_.jpg",
+        "name": "Java Concurrency in practice",
+        "description": "This book provides in-depth insights into mastering concurrent programming in Java, offering practical strategies and best practices for building robust, multithreaded applications. It is an essential resource for Java developers looking to harness the full power of concurrency",
+        "purchaseLink": "https://amzn.to/40e7cMA"
+      }
+    ]
+  }
+]

@@ -26,6 +26,7 @@
 	"type": "module",
 	"dependencies": {
 		"@popperjs/core": "^2.11.8",
+		"@rollup/plugin-json": "^6.1.0",
 		"flowbite": "^2.0.0",
 		"flowbite-svelte": "^0.44.18",
 		"flowbite-svelte-icons": "^0.4.4",

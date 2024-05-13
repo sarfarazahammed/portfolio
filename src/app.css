@@ -13,10 +13,37 @@
 
 body {
 	margin: 0;
-	padding: 0;
+	line-height: 1.614;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 .app-container {
-	background-color: rgb(235 230 219 / 1);
 	height: 100dvh;
+}
+
+*::-webkit-scrollbar {
+	display: none;
+}
+
+svg.github-icon {
+	fill: #181616;
+}
+
+svg.github-icon-dark {
+	fill: #e4e6e6;
+}
+
+.book_poster {
+	width: 100%;
+	max-height: 200px;
+	object-fit: contain;	
+	margin-right: 10px;
+	transition: transform 450ms;
+}
+
+.book_poster:hover {
+	transform: scale(1.08);
 }

@@ -38,7 +38,7 @@
 	});
 </script>
 
-<div class="flex flex-row justify-content items-center align-middle m-3">
+<div class="flex flex-row justify-content items-center align-middle m-3 h-full">
 	<header class=" flex flex-col justify-center m-2 md:m-3 md:w-2/3 font-mulish">
 		<Heading
 			tag="h1"
@@ -70,7 +70,7 @@
 				<a
 					href="mailto:syedsarfarazahammed@outlook.com"
 					target="_blank"
-					class="bg-primary-200 rounded-md p-0.5 text-sm sm:text-md lg:text-lg"
+					class="bg-primary-200 rounded-md p-0.5 text-sm sm:text-md lg:text-lg dark:bg-gray-600"
 					>syedsarfarazahammed@outlook.com</a
 				>
 			</span>
