@@ -1,0 +1,31 @@
+[
+  {
+    "id": "java",
+    "name": "Java",
+    "img": "java"
+  },{
+    "id": "sql",
+    "name": "Structured Query Language",
+    "img": "sql"
+  },{
+    "id": "my_sql",
+    "name": "MySQL",
+    "img": "mysql"
+  },{
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "img": "postgres"
+  },{
+    "id": "mongo",
+    "name": "MongoDB",
+    "img": "mongo"
+  },{
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "img": "elasticsearch"
+  },{
+    "id": "bigquery",
+    "name": "BigQuery",
+    "img": "bigquery"
+  }
+]
