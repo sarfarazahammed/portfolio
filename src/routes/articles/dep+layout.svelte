@@ -23,7 +23,13 @@
 		<div class="text-center">
 			<AngleRightSolid class="z-20" on:click={() => (hideDrawer = false)} />
 		</div>
-		<Drawer class="w-54 " transitionType="fly" {transitionParams} bind:hidden={hideDrawer} id="sidebar2">
+		<Drawer
+			class="w-54 "
+			transitionType="fly"
+			{transitionParams}
+			bind:hidden={hideDrawer}
+			id="sidebar2"
+		>
 			<div class="flex items-center justify-between">
 				<h5
 					id="drawer-navigation-label-3"

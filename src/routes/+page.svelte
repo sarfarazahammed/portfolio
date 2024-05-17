@@ -45,11 +45,11 @@
 			class="p-1 md:p-3"
 			customSize="text-2xl sm:text-3xl font-extrabold  md:text-4xl lg:text-5xl">Hello! 👋</Heading
 		>
-		<p class="p-1 md:p-3 text-md sm:text-lg lg:text-xl dark:text-gray-400 text-justify">
+		<P class="p-1 md:p-3 text-md sm:text-lg lg:text-xl dark:text-gray-400 text-justify">
 			I'm <span class="name">Sarfaraz Ahammed Syed</span>, have started working on backend
 			engineering
 			<span id="exp">{formattedDateDiff}</span>.
-		</p>
+		</P>
 		<Tooltip
 			class="bg-primary-200 text-dark font-light"
 			reference="#exp"
