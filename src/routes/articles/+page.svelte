@@ -28,7 +28,6 @@
 									<span
 										style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px;"
 									/>
-									<!-- <MongoIconOnly/> -->
 									<img 
 									alt={subject.name} 
 									sizes="(max-width: 950px) 100vw, 30vw" 
@@ -38,7 +37,8 @@
 								</span>
 							</div>
 						</div>
-						<h3 class="heading-six m-0 text-gray-L900 dark:text-gray-D50">{subject.name}</h3>
+						<Heading tag="h6" class="m-0 text-gray-L900 dark:text-gray-D50">{subject.name}</Heading>
+						<!-- <p class="line-clamp-3">Nulla dolor velit adipisicing duis excepteur esse in duis nostrud occaecat mollit incididunt deserunt sunt. Ut ut sunt laborum ex occaecat eu tempor labore enim adipisicing minim ad. Est in quis eu dolore occaecat excepteur fugiat dolore nisi aliqua fugiat enim ut cillum. Labore enim duis nostrud eu. Est ut eiusmod consequat irure quis deserunt ex. Enim laboris dolor magna pariatur. Dolor et ad sint voluptate sunt elit mollit officia ad enim sit consectetur enim.</p> -->
 					</div>
 				</a>
 			{/each}
