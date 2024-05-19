@@ -38,43 +38,39 @@
 	});
 </script>
 
-<div class="flex flex-row justify-content items-center align-middle m-3 h-full">
+<div class="flex flex-row justify-content items-center align-middle m-3 h-full ">
 	<header class=" flex flex-col justify-center m-2 md:m-3 md:w-2/3 font-mulish">
-		<Heading
-			tag="h1"
-			class="p-1 md:p-3"
-			customSize="text-2xl sm:text-3xl font-extrabold  md:text-4xl lg:text-5xl">Hello! 👋</Heading
-		>
-		<P class="p-1 md:p-3 text-md sm:text-lg lg:text-xl dark:text-gray-400 text-justify">
-			I'm <span class="name">Sarfaraz Ahammed Syed</span>, have started working on backend
+		<h2 class="p-1 md:p-3 text-2xl sm:text-3xl font-extrabold  md:text-4xl lg:text-5xl ">Hello! 👋</h2>
+		<p class="p-1 md:p-3 text-md sm:text-lg lg:text-xl  text-justify ">
+			I'm <span class="name text-light-primary-500 dark:text-dark-primary-700">Sarfaraz Ahammed Syed</span>, have started working on backend
 			engineering
 			<span id="exp">{formattedDateDiff}</span>.
-		</P>
+		</p>
 		<Tooltip
 			class="bg-primary-200 text-dark font-light"
 			reference="#exp"
 			placement="top"
 			triggeredBy="#exp">Started on 27-May-2019</Tooltip
 		>
-		<P class="p-1 md:p-3 text-md sm:text-lg lg:text-xl dark:text-gray-400 text-justify">
+		<p class="p-1 md:p-3 text-md sm:text-lg lg:text-xl text-justify ">
 			Behind the scenes, I work to ensure tech runs seamlessly. As a backend infrastructure and data
 			engineer, I tackle data challenges and build critical yet invisible infrastructure. Join me on
 			a journey where complex tech becomes user-friendly solutions, making the digital world better.
 			Let's take a journey through my work, where I turn complex technology into user-friendly
 			solutions that make the digital world a better place.
-		</P>
+		</p>
 
-		<P class="p-1 md:p-3 sm:p-1 text-sm sm:text-md lg:text-lg  md:w-2/3 ">
+		<p class="p-1 md:p-3 sm:p-1 text-sm sm:text-md lg:text-lg  md:w-2/3 ">
 			<span>Grab me on 🫴 </span> <span class="emoji pointer" />
 			<span>
 				<a
 					href="mailto:syedsarfarazahammed@outlook.com"
 					target="_blank"
-					class="bg-primary-200 rounded-md p-0.5 text-sm sm:text-md lg:text-lg dark:bg-gray-600"
+					class="bg-light-primary-200 dark:bg-dark-primary-200 rounded-md p-0.5 text-sm sm:text-md lg:text-lg"
 					>syedsarfarazahammed@outlook.com</a
 				>
 			</span>
-		</P>
+		</p>
 	</header>
 	<div
 		class="md:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-1 align-middle md:w-1/3 p-2 hidden md:visible"
