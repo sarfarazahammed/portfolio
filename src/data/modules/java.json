@@ -1,0 +1,68 @@
+[
+  {
+    "id": "java_basics",
+    "name": "Basics",
+    "img": "java"
+  },
+  {
+    "id": "java_oops",
+    "name": "OOP",
+    "img": "java"
+  },
+  {
+    "id": "java_exceptions",
+    "name": "Exceptions",
+    "img": "java"
+  },
+  {
+    "id": "java_collections",
+    "name": "Collections",
+    "img": "java"
+  },
+  {
+    "id": "java_streams",
+    "name": "Streams",
+    "img": "java"
+  },
+  {
+    "id": "java_io",
+    "name": "IO",
+    "img": "java"
+  },
+  {
+    "id": "java_multi_threading",
+    "name": "Multi Threading",
+    "img": "java"
+  },
+  {
+    "id": "java_date_time",
+    "name": "Date & Time",
+    "img": "java"
+  },
+  {
+    "id": "java_json",
+    "name": "JSON",
+    "img": "java"
+  },
+  {
+    "id": "java_jdbc",
+    "name": "JDBC",
+    "img": "java"
+  },
+  {
+    "id": "java_performance",
+    "name": "Performance",
+    "img": "java"
+  },
+  {
+    "id": "java_regex",
+    "name": "REGEX",
+    "img": "java"
+  },
+  {
+    "id": "java_unit_testing",
+    "name": "Unit Testing",
+    "img": "java"
+  }
+
+]
